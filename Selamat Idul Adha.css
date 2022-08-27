@@ -1,0 +1,122 @@
+header {
+    display: inline;
+    text-align: center;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.jumbotron {
+    padding: 10px;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    background-image: url('https://static.turbosquid.com/Preview/2015/03/04__12_36_04/Hagia_Sophia_2_g_003_53fd9da7ce928.jpgaaea443b-6366-41dc-b1bb-1197fe5b8de0Default.jpg');
+    background-size: contain;
+}
+main {
+    padding: 20px;
+    overflow: auto;
+    background-image: url('https://image.freepik.com/free-vector/eid-al-adha-mubarak-happy-sacrifice-feast-with-goat-traditional-icons_24877-66304.jpg');
+    background-size:contain;
+}
+
+body {
+    font-family:'Quicksand', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.display1{
+    color:aliceblue;
+}
+
+
+h2{
+    color: white;
+}
+
+
+h3{
+    text-align: center;
+    color: green
+}
+
+p{
+    text-align: justify;
+}
+
+footer {
+    padding: 20px;
+    color: white;
+    background-color: #bf00ff;
+    text-align: center;
+    font-weight: bold;
+}
+
+*{
+    box-sizing: border-box;
+}
+.flex-container-column {
+    display: flex;
+    flex-direction: column;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: right;
+}
+
+.display {
+    color: white;
+    width: 100%;
+    padding: 10px 20px;
+    background-color: green;
+    border: 1px black;
+    font-size: 2em;
+}
+
+
+.card{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: aliceblue;
+}
+
+@media screen and (max-width: 513px){
+    content {
+        padding: 10px;
+    }
+}
+footer {
+    padding: 20px;
+    color: white;
+    background-color: orange;
+    text-align: center;
+    font-weight: bold;
+}
+
+table{
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    border: 1px transparent;
+    text-align: center;
+    color:white
+}
+
+th, td{
+    text-align: center;
+    padding: 16px;
+}
+
+th{
+    background-color: orange;
+    color: black;
+}
+
+tr:nth-child(even){
+    background-color: #d2d2d2;
+}
